@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(asset/images/peter.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.85;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 8px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 2px;
+}
+
+.btn {
+  padding: 5px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.unggah {
+  background-color: rgba(11, 232, 129,1.0);
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(30, 39, 46,1.0);
+  position: fixed;
+  top: 0px;
+  z-index:10;
+  opacity: 0.6;
+}
+
+.logo {
+  width: 124px;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.header-left {
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.6s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  float: left;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.artikel-wrapper {
+  height: 500px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.artikel {
+  width: 33%;
+}
+
+.artikel-icon {
+  position: relative;
+}
+
+.artikel-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: #5f5d60;
+}
+
+.txt-contents {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal Bold;
+}
+
+.message-wrapper {
+  border-bottom: 12px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer h4 {
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: right;
+}
+
+
+footer {
+  height: 80px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+.tautan {
+  text-align: center;
+  padding: 30px;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
